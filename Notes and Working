@@ -1,0 +1,13 @@
+Notes
+VPN Logs: Currently simulated; extend collect_logs() to read from VPN log files (e.g., OpenVPN logs).
+Customization: Add more rules or integrate Sysmon for advanced event collection.
+Security: This is a basic tool—use in production with caution. For real SIEM, consider hardening and testing.
+Extensions: Add more visualizations or export features.
+
+How It Works
+The script runs continuously, collecting logs every 60 seconds.
+Parses logs for detection rules.
+Stores logs in SQLite and triggers alerts if rules match.
+Flask dashboard runs on http://localhost:5000 for viewing.
+
+
