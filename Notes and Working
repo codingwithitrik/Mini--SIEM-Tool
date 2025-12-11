@@ -11,3 +11,10 @@ Stores logs in SQLite and triggers alerts if rules match.
 Flask dashboard runs on http://localhost:5000 for viewing.
 
 
+Requirements
+OS: Windows (for event log access).
+Python Libraries: Install via pip install pywin32 flask sqlite3 smtplib requests matplotlib.
+Permissions: Run as administrator to access event logs.
+Setup:
+For Telegram: Create a bot via BotFather on Telegram, get BOT_TOKEN and your chat ID.
+For Email: Use Gmail SMTP (enable "Less secure app access" or use an app passwords
