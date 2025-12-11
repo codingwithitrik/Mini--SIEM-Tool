@@ -1,0 +1,6 @@
+How to Run
+Install dependencies: pip install pywin32 flask requests matplotlib.
+Update config variables (email, Telegram, etc.).
+Run as admin: python mini_siem.py.
+Access dashboard at http://localhost:5000.
+The tool will start monitoring logs and alerting.
